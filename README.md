@@ -2,7 +2,7 @@ Weather Forecast API Integration Instructions
 
 1. Controller Setup:
    - Add the Weather API to your controller named "WeatherController."
-   - Use the free API from "https://openweathermap.org/appid"
+   - **Use the free API from "https://openweathermap.org/appid"
    - Use the following code:
      ```
      private readonly string apiKey = "Insert API Key Here";
