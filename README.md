@@ -49,8 +49,8 @@ To modify the preset cities in the WeatherController file, follow these steps:
 To change a preset city, find the OpenWeatherMap API city code for the desired city. Replace the existing city name and API code with the new values.
 
    ```csharp
-{"New City", "New City Code"};  
-```
+   {"New City", "New City Code"};  
+   ```
 
 Save the changes to the WeatherController.cs file.
 
@@ -91,9 +91,9 @@ To modify the preset cities in the WeatherController file, follow these steps:
    ```
    To change a preset city, find the OpenWeatherMap API city code for the desired city. Replace the existing city name and API code with the new values.
 
-```csharp
-{"New City", "New City Code"};  
-```
+   ```csharp
+   {"New City", "New City Code"};  
+   ```
 3. Save the changes to the WeatherController.cs file.    
 
 
