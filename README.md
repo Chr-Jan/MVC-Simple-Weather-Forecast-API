@@ -88,13 +88,13 @@ To modify the preset cities in the WeatherController file, follow these steps:
        {"Oymyakon", "2122311"},
        {"Dallol", "2318534"}
    };
+   ```
+   To change a preset city, find the OpenWeatherMap API city code for the desired city. Replace the existing city name and API code with the new values.
 
-To change a preset city, find the OpenWeatherMap API city code for the desired city. Replace the existing city name and API code with the new values.
-
-   ```csharp
+```csharp
 {"New City", "New City Code"};  
 ```
-3. Save the changes to the WeatherController.cs file.
+3. Save the changes to the WeatherController.cs file.    
 
 
 Note: Replace "Insert API Key Here" with your actual OpenWeatherMap API key.
