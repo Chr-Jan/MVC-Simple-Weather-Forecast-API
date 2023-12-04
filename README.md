@@ -94,7 +94,7 @@ To change a preset city, find the OpenWeatherMap API city code for the desired c
    ```csharp
 {"New City", "New City Code"};  
 ```
-Save the changes to the WeatherController.cs file.
+3. Save the changes to the WeatherController.cs file.
 
 
 Note: Replace "Insert API Key Here" with your actual OpenWeatherMap API key.
