@@ -11,7 +11,7 @@ namespace WeatherMap.Controllers
 {
     public class WeatherController : Controller
     {
-        private readonly string apiKey = "Insert API here";
+        private readonly string apiKey = "Insert API Key Here";
 
         private readonly Dictionary<string, string> cities = new Dictionary<string, string>
         {
