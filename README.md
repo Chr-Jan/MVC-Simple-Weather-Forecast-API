@@ -20,9 +20,31 @@
 ## 4. Integration:
    - Incorporate the code into your C# project.
 
-## Changing Preset Cities:
-   - To change preset cities, find the OpenWeatherMap API city code for the desired city.
-   - Replace the existing city names with the corresponding OpenWeatherMap API city codes in your code.
+## Changing Preset Cities in WeatherController:
+
+To modify the preset cities in the WeatherController file, follow these steps:
+
+1. Open the WeatherController.cs file in your project.
+
+2. Locate the `cities` dictionary within the WeatherController class. This dictionary contains the preset cities along with their corresponding OpenWeatherMap API city codes.
+
+   ```csharp
+   private readonly Dictionary<string, string> cities = new Dictionary<string, string>
+   {
+       {"Nuuk", "3421319"},
+       {"Sydney", "2147714"},
+       {"Washington DC", "4140963"},
+       {"Oymyakon", "2122311"},
+       {"Dallol", "2318534"}
+   };
+
+To change a preset city, find the OpenWeatherMap API city code for the desired city. Replace the existing city name and API code with the new values.
+
+   ```csharp
+{"New City", "New City Code"};  
+
+Save the changes to the WeatherController.cs file.
+
 
 Note: Replace "Insert API Key Here" with your actual OpenWeatherMap API key.
 
